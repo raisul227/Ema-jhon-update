@@ -1,0 +1,35 @@
+.items-container{
+    width: 571px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #95A0A7;
+    margin: 20px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.item-details{
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+}
+.item-details img{
+    width: 120px;
+    margin-right: 10px;
+
+}
+.btn-delete{
+    background-color: #D9D9D9;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.delete-icon{
+    color: #EB5757;
+    font-size: 27px;
+    margin-top: 5px;
+}
